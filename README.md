@@ -20,10 +20,16 @@ The dataset is based on the 2016 NYC Yellow Cab trip record data made available 
 
 
 ## Why NYC Taxi Trip Time Prediction?
-Trip time prediction is an important problem. Taxi passengers often want to know when they will arrive at their destinations. We design a method of predicting taxi trip time by finding historical similar trips. Trips are clustered based on origin, destination, and start time. Then similar trips are mapped to road networks to find frequent sub-trajectories that are used to model travel time of the various parts of the routes. Experimental results show this method is effective.![image](https://user-images.githubusercontent.com/86152517/131674527-ee321047-339b-4dd7-a2b1-59d045897a34.png)
+Trip time prediction is an important problem. Taxi passengers often want to know when they will arrive at their destinations. We design a method of predicting taxi trip time by finding historical similar trips. Trips are clustered based on origin, destination, and start time. Then similar trips are mapped to road networks to find frequent sub-trajectories that are used to model travel time of the various parts of the routes. Experimental results show this method is effective.
+
+![image](https://user-images.githubusercontent.com/86152517/131675088-a6632e18-d471-48ee-bf79-c610be6ec29e.png)
+
+
 
 Machine learning has been of significant help as it has helped businesses in abundant ways. ML is a subset of AI and does not need to be directly trained like AI to perform tasks. ML is used for prediction analysis in businesses, which we will learn in this case study. ML Systems created a solution that can forecast time-based on initial partial trajectories. For someone in the logistics business, this is indispensable. It is important to predict how long a driver will have his taxi occupied. If a dispatcher got estimates about the taxi driver's current ride time, they could better recognize which driver to allocate for each pickup request.
-![image](https://user-images.githubusercontent.com/86152517/131674592-43b5b79b-a386-4d93-800e-4f8b9c4a3d72.png)
+
+![image](https://user-images.githubusercontent.com/86152517/131675122-d52239ad-bcbd-4892-9be6-fcaa1b68e173.png)
+
 
 
 ## Task Performed
