@@ -58,3 +58,13 @@ Machine learning has been of significant help as it has helped businesses in abu
 
 
 ![image](https://user-images.githubusercontent.com/86152517/131451468-9c103db7-f87a-49b1-be49-90a090ec260f.png)
+
+
+
+
+## Result 
+* XGBoost : r2 score came out to be : 77% on Test set, while it was only 79% for the train set, increasing the max depth overfitted the model, where r2 score for test set remained almost the same, also root mean square error (rmse) score for both the model were 0.3 and 0.28 for test and train respectively.
+
+* CatBoost : r2 score came out to be : 80.7% on Test set, while it was only 86.5% for the train set, one the best hyperparameter, if I would have trained more, It would have led to overfitting, also the RMSE score for test and train is 0.28 and 0.23 respectively, which means model is a better fit when compared to XGBoost.
+
+
