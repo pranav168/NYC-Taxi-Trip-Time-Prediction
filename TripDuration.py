@@ -23,6 +23,6 @@ class TripDuration(BaseModel):
     North: float
     South: float
     West: float
-    Easr: float
+    East: float
       
       
