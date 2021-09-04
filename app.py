@@ -43,7 +43,7 @@ def predict_banknote(data:TripDuration):
                                     pickup_time,avg_speed_hr,avg_speed_week,avg_speed_weekofyear,avg_speed_month,avg_speed_day,
                                     lat_diff,long_diff,North,South,West,East]])
     return {
-        'prediction': prediction
+        'prediction':  2.71828**prediction
     }
 
 if __name__ == '__main__':
