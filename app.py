@@ -7,7 +7,7 @@ import pandas as pd
 
 app = FastAPI()
 pickle_in = open("cat_model.pkl","rb")
-classifier=pickle.load(pickle_in)
+cat_model=pickle.load(pickle_in)
 
 @app.get('/')
 def index():
@@ -38,7 +38,10 @@ def predict_banknote(data:TripDuration):
     South= data['South'] 
     West= data['West'] 
     East= data['East'] 
-    prediction = cat_model.predict([[variance,skewness,curtosis,entropy]])
+    prediction = cat_model.predict([[passenger_count,pickup_longitude,pickup_latitude,dropoff_longitude,dropoff_latitude,
+                                    store_and_fwd_flag,distance,pickup_day,pickup_month,pickup_weekday,pickup_weekofyear,
+                                    pickup_time,avg_speed_hr,avg_speed_week,avg_speed_weekofyear,avg_speed_month,avg_speed_day,
+                                    lat_diff,long_diff,North,South,West,East]])
     return {
         'prediction': prediction
     }
