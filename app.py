@@ -1,6 +1,6 @@
 import uvicorn
 from fastapi import FastAPI
-from BankNotes import BankNote
+from TripDuration import TripDuration
 import numpy as np
 import pickle
 import pandas as pd
